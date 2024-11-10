@@ -9,7 +9,7 @@ frontend:
   phases:
     build:
       commands:
-        - npm install -g @angular/cli
+        - npm install -g @angular/cli@12.2.18
         - ng version
         - ng build --configuration=production
   artifacts:
